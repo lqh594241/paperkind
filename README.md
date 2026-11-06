@@ -22,7 +22,11 @@ npm run build
 
 ## 广告与统计
 
-所有 HTML 页面已接入 Ahrefs Web Analytics，使用你提供的 data-key：`H9b2GINvE+UAtMw7v33ULA`，每页仅加载一次。首页代码在 `AHREFS_ANALYTICS_START/END` 内，隐私说明已同步更新。`AD_HEAD_START/END`、`AD_BANNER_START/END`、`AD_BODY_START/END` 广告位仍预留为空。顶部横幅是正常文档流的全宽区域，可关闭；粘贴本站专属广告位代码后移除 `#ad-banner` 的 hidden。不要复制其他站的广告位或重复添加同一脚本。启用广告后更新隐私说明。本站已启用统计，未加载真实广告。
+`ads.js` 已接入本次提供的 Paperkind 专属 HilltopAds 横幅与弹窗链接。顶部横幅全宽、正常占位，可通过 × 关闭，不悬浮；空广告位折叠，手机上按可用宽度缩放。
+
+首次真实点击 PDF（`#download-pdf`）或 SVG（`#download-svg`）导出按钮时打开广告页，每次页面加载只尝试一次，不阻止原本的下载。调整纸张、间距、预览、导航和关闭横幅不会触发弹窗。浏览器可能拦截弹窗，广告填充由平台决定。
+
+所有 HTML 页面保留 Ahrefs Web Analytics，每页仅加载一次，data-key 为 `H9b2GINvE+UAtMw7v33ULA`。已有验证 meta 与 TXT 文件保留，隐私说明已更新。构建会自动包含 `ads.js`，上传本站源码时请一并上传。不要复制其他站的广告位或重复添加同一脚本。
 
 ## 范围
 

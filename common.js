@@ -15,6 +15,6 @@ function blob(canvas,type='image/png',quality=.92){return new Promise((resolve,r
 function csv(rows){return rows.map(row=>row.map(cell=>'"'+String(cell).replaceAll('"','""')+'"').join(',')).join('\r\n');}
 root.Site={$,fmt,number,val,status,guard,download,copy,printText,escape,image,blob,csv};
 if($('year'))$('year').textContent=new Date().getFullYear();
-$('close-ad')?.addEventListener('click',()=>{$('ad-banner').hidden=true;});
+// Banner dismissal is managed by ads.js.
 document.querySelectorAll('form').forEach(form=>form.addEventListener('submit',event=>event.preventDefault()));
 })(globalThis);
