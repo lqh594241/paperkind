@@ -1,0 +1,12 @@
+{
+  "slug": "paperkind",
+  "brand": "Paperkind",
+  "kicker": "A blank page, made your way.",
+  "title": "Something good<br>starts on <em>paper.</em>",
+  "desc": "Make graph, dot, isometric or knitting paper. Pick the spacing and download a true-size PDF, ready for your next idea.",
+  "accent": "#7a3f30",
+  "dark": "#553e30",
+  "kind": "paper",
+  "port": "4178",
+  "design": "stationery shop / parchment / printed grids"
+}
