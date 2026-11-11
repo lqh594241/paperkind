@@ -1,0 +1,86 @@
+[
+  {
+    "id": "graph",
+    "slug": "5mm-graph-paper",
+    "name": "5 mm graph paper",
+    "short": "For working things out.",
+    "headline": "A little order.<br>A lot of possibilities.",
+    "description": "Free printable 5 mm graph paper in A4 and US Letter. Download a vector PDF with a 50 mm calibration ruler, or customize the grid.",
+    "intro": "Five-millimeter squares, a little breathing room, and nothing between you and your next idea. Download a ready-made sheet for math, measured sketches or planning.",
+    "kind": "graph",
+    "spacing": 5,
+    "ratio": 0.75,
+    "color": "#829287",
+    "major": true,
+    "tag": "5 × 5 mm squares",
+    "background": "#e4e9de",
+    "uses": ["Plot coordinates and sketch functions", "Plan a room or garden using your own scale", "Arrange a cross-stitch motif on square cells"],
+    "noteTitle": "Millimeters and inches are different grids.",
+    "note": "Each square is 5 mm wide and 5 mm high: two squares equal 1 cm. A 5 mm grid is not a quarter-inch grid (6.35 mm). Check your worksheet or project requirements before printing.",
+    "faq": [
+      ["How many 5 mm squares fit in one centimeter?", "Two squares in either direction. Each square is 0.5 cm wide, so a 2 × 2 block covers 1 square centimeter."],
+      ["Are heavier lines included?", "Yes. Every fifth line is slightly heavier, marking 25 mm intervals. You can turn this off in the custom generator."],
+      ["Can I use it as an architectural drawing?", "You can choose a drawing scale yourself, but this is blank graph paper, not a certified measurement or drafting document. Check the printed calibration line first."]
+    ],
+    "pins": [
+      {"label": "The blank sheet", "title": "Free 5 mm Graph Paper Printable PDF - A4 & US Letter", "headline": ["A place for", "every idea."], "subtitle": "5 MM GRAPH PAPER", "description": "Print a clean 5 mm square grid for math, sketching and planning. Free A4 and US Letter PDFs with a 50 mm print-check ruler. Download the sheet or customize the spacing at Paperkind."},
+      {"label": "A coordinate sketch", "title": "Printable 5 mm Graph Paper for Math & Coordinate Sketches", "headline": ["Make room", "to work it out."], "subtitle": "MATH, SKETCHES & SMALL PLANS", "description": "A simple coordinate sketch on Paperkind's 5 mm graph paper. The downloadable PDF is blank, ready for your own work. Choose A4 or US Letter and print at Actual size / 100%."}
+    ]
+  },
+  {
+    "id": "dots",
+    "slug": "dot-grid-paper",
+    "name": "5 mm dot grid paper",
+    "short": "A quieter kind of structure.",
+    "headline": "Less on the page.<br>More room for you.",
+    "description": "Download free printable 5 mm dot grid paper in A4 or US Letter. A clean vector PDF for journals, notes and layouts, with a print calibration ruler.",
+    "intro": "A soft grid of dots that keeps your notes in line without taking over the page. Start a journal, map a week, or give an idea room to grow.",
+    "kind": "dots",
+    "spacing": 5,
+    "ratio": 0.75,
+    "color": "#88998b",
+    "major": false,
+    "tag": "5 mm between dot centers",
+    "background": "#efe3ce",
+    "uses": ["Lay out weekly notes and journal spreads", "Sketch diagrams without continuous grid lines", "Keep handwriting and hand lettering aligned"],
+    "noteTitle": "The dots guide you. The layout is yours.",
+    "note": "The dots are 5 mm apart horizontally and vertically, measured center to center. Downloads are blank: they do not include calendars, headings or example handwriting. Change the spacing or dot color in the generator.",
+    "faq": [
+      ["Is this a ready-made journal planner?", "It is a blank dotted sheet, not a dated planner. Draw your own boxes, headings and trackers using the dots as guides."],
+      ["Does the PDF contain raster dots?", "No. The dots are vector shapes, so the PDF stays crisp when viewed or printed. Print at 100% to preserve the 5 mm spacing."],
+      ["Can I print a smaller notebook insert?", "The ready-made files are A4 and US Letter. Scaling to a smaller size changes the dot spacing too. These templates do not provide automatic notebook imposition."]
+    ],
+    "pins": [
+      {"label": "The blank sheet", "title": "Free 5 mm Dot Grid Paper PDF - A4 & US Letter", "headline": ["A quieter", "kind of page."], "subtitle": "5 MM DOT GRID PAPER", "description": "Free printable dot grid paper with 5 mm dot spacing. Download A4 or US Letter vector PDFs for journaling, notes and layouts. No account needed. Check the calibration ruler after printing."},
+      {"label": "A weekly notes layout", "title": "Blank Dot Grid Printable for Journaling & Weekly Notes", "headline": ["A little space", "for your week."], "subtitle": "YOUR NOTES. YOUR OWN WAY.", "description": "An example weekly notes layout drawn on Paperkind dot grid paper. Download the blank 5 mm dotted PDF, then create your own headings and sections. Free A4 and US Letter sheets."}
+    ]
+  },
+  {
+    "id": "knit",
+    "slug": "knitting-graph-paper",
+    "name": "Knitting graph paper",
+    "short": "See the shape of a stitch.",
+    "headline": "Ideas, one little<br>stitch at a time.",
+    "description": "Free printable knitting graph paper with 5 × 3.75 mm rectangular cells. Download A4 or US Letter PDFs, or adjust the row-to-stitch ratio for your gauge.",
+    "intro": "Stitches are not always square. A rectangular grid helps you sketch colorwork with a more useful sense of proportion. Start with our 0.75 ratio, then adjust it to your swatch.",
+    "kind": "knit",
+    "spacing": 5,
+    "ratio": 0.75,
+    "color": "#a27c6d",
+    "major": true,
+    "tag": "5 mm wide × 3.75 mm high",
+    "background": "#edddd5",
+    "uses": ["Sketch colorwork motifs on rectangular cells", "Compare a motif's proportions before knitting", "Map a simple repeat, one cell per stitch"],
+    "noteTitle": "Match your swatch, not a universal ratio.",
+    "note": "The ready-made sheet uses a row-height / stitch-width ratio of 0.75. For a blocked swatch with 20 stitches and 28 rows over the same distance, use 20 ÷ 28 ≈ 0.714. Enter that ratio in the generator; the default sheet does not automatically match your yarn or stitch pattern.",
+    "faq": [
+      ["Why are the cells rectangular?", "A knitted stitch is often wider than one row is tall. Rectangular cells can make a colorwork sketch resemble the finished fabric more closely, provided the ratio matches the blocked gauge."],
+      ["What does the 0.75 ratio mean?", "Each cell is 5 mm wide and 3.75 mm high. The height is 0.75 times the width. This is a charting aid, not the physical size of your knitted stitch."],
+      ["Does the PDF include the sample motif?", "No. Downloads are blank grids. The small colorwork example in the sharing image illustrates a possible use; it is not an included knitting pattern."]
+    ],
+    "pins": [
+      {"label": "The blank sheet", "title": "Free Printable Knitting Graph Paper PDF - Rectangular Grid", "headline": ["For your", "next good stitch."], "subtitle": "KNITTING GRAPH PAPER", "description": "Download blank knitting graph paper with 5 × 3.75 mm rectangular cells. Free A4 and US Letter PDFs, with an editable row-height ratio in the generator. Match your blocked gauge before charting."},
+      {"label": "A colorwork sketch", "title": "Knitting Chart Paper for Sketching Colorwork Motifs", "headline": ["Start with", "a small pattern."], "subtitle": "A LITTLE COLORWORK EXPLORATION", "description": "A simple colorwork sketch on rectangular knitting graph paper. The download is a blank chart, not a knitting pattern. Choose A4 or US Letter, or adjust the cell ratio to your own blocked gauge."}
+    ]
+  }
+]

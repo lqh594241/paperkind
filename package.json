@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "node server.mjs",
     "build": "node scripts/build.mjs",
+    "pages": "node scripts/generate-pages.mjs",
     "test": "node --test tests/*.test.mjs"
   },
   "homepage": "https://paperkind.luqihang594241.workers.dev/"

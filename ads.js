@@ -1,4 +1,4 @@
-/* User-provided HilltopAds tags. Load only on the Paperkind workspace. */
+/* User-provided HilltopAds banner. Downloads stay on the paper workflow. */
 (function () {
   'use strict';
   const banner = document.getElementById('ad-banner');
@@ -49,21 +49,7 @@
   creative.appendChild(script);
   // HILLTOPADS_BANNER_END
 
-  // HILLTOPADS_POPUP_START: Direct offer URL, not a script URL.
-  const offerUrl = 'https://bold-consequence.com/bK3wV.0lP/3SpFvKbKmQVOJRZjDf0/3tN/jGAowANzDiMez-LOTgch2sMGDbAT0/Mzz/cj';
-  let attempted = false;
-  document.addEventListener('click', event => {
-    const button = event.target.closest && event.target.closest('#download-pdf, #download-svg');
-    if (attempted || !event.isTrusted || !button || button.disabled) return;
-    attempted = true;
-    integration.dataset.popupStatus = 'attempted';
-    // Run within the user's click before asynchronous operations consume the gesture.
-    // Do not cancel the original PDF or SVG download action.
-    try {
-      window.open(offerUrl, '_blank', 'noopener,noreferrer');
-    } catch {
-      integration.dataset.popupStatus = 'error';
-    }
-  }, { capture: true });
+  // HILLTOPADS_POPUP_START: Paused for the printable-paper acquisition test.
+  // Previous offer: https://bold-consequence.com/bK3wV.0lP/3SpFvKbKmQVOJRZjDf0/3tN/jGAowANzDiMez-LOTgch2sMGDbAT0/Mzz/cj
   // HILLTOPADS_POPUP_END
 })();
